@@ -144,7 +144,7 @@ header h1 {
     border-bottom: 1px solid var(--ljos-blar);
 }
  .topnav label {
-    position: fixed ;
+    position: fixed ;  
     top: 0.5rem;
     right: 1rem;
     padding: 0.3rem;
