@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vatnsstríðið mikla">
+    <meta name="author" content="HLG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Vatnsstríðið mikla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="topnav"> 
+        <input type="checkbox" id="toggle">
+        <label for="toggle">&#9776;</label>
+        <section class="topmenu">
+         <section class="left">
+          <a href="index.html"><span class="icon-Vatnsstidlogo"></span></a>
+         </section> 
+          <a href="verðskrá.html"><span class="icon-coin-dollar"></span> Verðskrá</a>
+          <a href="#Login"><span class="icon-user"></span> Innskráning</a>
+          <a href="um_okkur.html"> <span class="icon-users"></span> Um okkur</a>
+          <div class="socialbutts">
+            <a href="#" title="Tik tok" class="icon-tiktok"></a>
+            <a href="#" title="Mail" class="icon-mail4"></a>
+            <a href="#" title="Facebook" class="icon-facebook2"></a>
+            <a href="#" title="Instagram" class="icon-instagram"></a>
+          </div>
+        </section>
+      </nav>
+
+      <main class="container col-2 umBG um">
+        <section>
+            <h3>Um okkur</h3>
+            <p>Við höldum upp á skemmtileg vatnsstríð sem er rosalega gaman að taka þátt í. Við stofnuðum vatnsstríðið því að það vantar einfandlega bara aðeins meira gaman í lífið, það er svo oft þar sem maður vatnar bara að skemta sér aðeins og það er það sem við erum erum að reyna að gera með vatnsstríðinu mikla, hafa gaman og skemmta sér með vinum, fjölskyldu eða bara einn og sér. Það er það sem við erum að leitast eftir að gera daginn aðeins skemmtilegra.</p> 
+        </section>
+        <div class="animate__lightSpeedInRight"><span class="icon-Vatnsstidlogo staerralogo"></span></div>
+
+      </main>
+      <footer class="container col-2 endir">
+        <dl>              <!--Description list -->
+          <dt>Nafn:</dt>
+            <dd>Helena Laufey Gunnarsdóttir</dd>
+          <dt>Tölvupóstur:</dt>
+            <dd>lenalauf08@gmail.com</dd>
+          <dt>Vefhönnun:</dt>
+            <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+        </dl>
+
+        <div>
+          <h4>Hafðu samband</h4>
+          <dt>Nafn:</dt>
+            <dd>Haraldur Karlsson</dd>
+          <dt>Tölvupóstur:</dt>
+            <dd>vatnsstrididmikla@gmail.com</dd>
+        </div>
+        
+      </footer>
+      <div class=" center">
+        <p class="container endir">2 spönn, vor 2025.</p>
+
+      </div> 
+     
+    <!-- innskráningarform -->
+  <div id="Login" class="overlay">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <form method="get" action="takk.html" class="login"  id="Login">
+        <fieldset>
+          <legend>Innskráning</legend>
+          <p>Nafn: <input type="text"></p>
+          <p>Tölvupóstur: <input type="email"></p>
+          <p>
+            <label>Kyn: </label> |
+            <label>
+                <input type="radio" name="gender" value="Male">
+                Hann
+            </label> |
+            
+            <label>
+                <input type="radio" name="gender" value="Female">
+                 Hún
+            </label> |
+            
+            <label>
+                <input type="radio" name="gender" value="other-none-na">
+                Hán
+            </label> 
+        </p>
+        <p>
+            <label>Símanúmer</label><br>
+            <input type="tel" name="phone" placeholder="7 digits only" pattern="\d{3}(?:[\-\s]?)\d{4}">
+        </p>
+        <p>
+            <label>Skilaboð</label><br>
+            <textarea placeholder="Skilaboð" rows="5"></textarea>
+        </p>
+
+          <p><input type="submit" value="innskrá"></p>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+    <section class="chattid">
+        <input type="checkbox" id="togglechat">
+        <label for="togglechat" class="chat"> <span class="icon-bubbles4"></span> </label>
+        <section class="chatbox">
+          <form method="get" action="takks.html">
+            <fieldset>
+              <legend>spjallbox</legend>
+              <p>
+                <label>Nafn:</label><br>
+                <input type="text" placeholder="Name" required></p>
+              <p>
+                <label>Tölvupóstur:</label><br> 
+                <input type="email" placeholder="Email" required></p>
+              <p>
+                <label>Skilaboð:</label><br>
+                <textarea placeholder="Message" rows="5"></textarea>
+            </p>
+              <p><input type="submit" value="Senda"></p>
+            </fieldset>
+          </form>
+        </section>
+      </section>
+    
+      
+    </body>
+    </html>
