@@ -130,6 +130,7 @@ header h1 {
     top: 3.5rem;
     right: -80rem;
     position: fixed;
+    z-index: 99;
     background-color: var(--graenn);
     transition: all 2s ease;
 }
